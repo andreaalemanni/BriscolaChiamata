@@ -1,0 +1,16 @@
+{
+  "name": "briscola-chiamata",
+  "version": "1.0.0",
+  "description": "Briscola chiamata a 5 online con bot facili, medi e difficili",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/simulate.js 2000",
+    "bench": "node test/bench.js 20000"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  }
+}
